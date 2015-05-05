@@ -67,5 +67,11 @@
       <source-file src="src/wp/UniqueDeviceID.cs" />
     </platform>
 
+    <!-- windows8 -->
+    <platform name="windows8">
+        <js-module src="src/windows/UniqueDeviceID.js" name="PushPlugin">
+            <merges target="" />
+        </js-module>
+    </platform>
 </plugin>
 
