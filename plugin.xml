@@ -69,7 +69,7 @@
 
     <!-- windows8 -->
     <platform name="windows8">
-        <js-module src="src/windows/UniqueDeviceID.js" name="UniqueDeviceID">
+        <js-module src="src/windows/UniqueDeviceID.js" name="WinUniqueDeviceID">
           <merges target="" />
         </js-module>
     </platform>
